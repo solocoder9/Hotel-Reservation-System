@@ -1,0 +1,20 @@
+Create Reservation Table
+------------------------
+mysql> CREATE TABLE reservations(
+    -> reservation_id INT AUTO_INCREMENT PRIMARY KEY,
+    -> guest_name VARCHAR(255) NOT NULL,
+    -> room_number INT NOT NULL,
+    -> contact_number VARCHAR(10) NOT NULL,
+    -> reservation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    -> );
+    
+mysql> describe reservations;
++------------------+--------------+------+-----+-------------------+-------------------+
+| Field            | Type         | Null | Key | Default           | Extra             |
++------------------+--------------+------+-----+-------------------+-------------------+
+| reservation_id   | int          | NO   | PRI | NULL              | auto_increment    |
+| guest_name       | varchar(255) | NO   |     | NULL              |                   |
+| room_number      | int          | NO   |     | NULL              |                   |
+| contact_number   | varchar(10)  | NO   |     | NULL              |                   |
+| reservation_date | timestamp    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++------------------+--------------+------+-----+-------------------+-------------------+
