@@ -4,7 +4,7 @@ The Hotel Management System is a Java application designed to manage hotel reser
 
 ## Table of Contents
 
-- [🌟 Features](#🌟features)
+- [🌟 Features](#features)
 - [💻 Technologies Used](#technologies-used)
 - [🛠️ Setup Instructions](#setup-instructions)
 - [🚀 Usage](#usage)
