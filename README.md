@@ -11,7 +11,7 @@ The Hotel Management System is a Java application designed to manage hotel reser
 - [🤝 Contributing](#contributing)
 - [📝 License](#license)
 
-## 🌟 Features
+🌟 ## Features
 
 1. **Reservation Operations:**
    - Reserve a room by providing guest details.
