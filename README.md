@@ -4,14 +4,14 @@ The Hotel Management System is a Java application designed to manage hotel reser
 
 ## Table of Contents
 
-- [🌟 Features](#features🌟)
+- [🌟 Features](#features)
 - [💻 Technologies Used](#technologies-used)
 - [🛠️ Setup Instructions](#setup-instructions)
 - [🚀 Usage](#usage)
 - [🤝 Contributing](#contributing)
 - [📝 License](#license)
 
-## Features🌟 
+## 🌟 Features 
 
 1. **Reservation Operations:**
    - Reserve a room by providing guest details.
@@ -25,14 +25,14 @@ The Hotel Management System is a Java application designed to manage hotel reser
 3. **Database Integration:**
    - Uses JDBC to connect to a MySQL database (`hotel_db`) running on `localhost`.
 
-## Technologies Used 💻 
+## 💻 Technologies Used  
 
 - Java
 - JDBC (Java Database Connectivity)
 - MySQL
 - Eclipse IDE
 
-## Setup Instructions 🛠️ 
+## 🛠️ Setup Instructions  
 
 To run the Hotel Management System on your local machine, follow these steps:
 
@@ -70,13 +70,13 @@ To run the Hotel Management System on your local machine, follow these steps:
    - Right-click on `HotelReservationSystem.java` > `Run As` > `Java Application`.
    - Follow the on-screen prompts to interact with the Hotel Management System.
 
-## Usage 🚀 
+## 🚀 Usage  
 
 - Upon running the application, you will be presented with a menu.
 - Choose an option (1-5) to perform the corresponding operations(CRUD).
 - Follow the prompts to enter guest details, room numbers, etc.
 
-## Contributing 🤝 
+## 🤝 Contributing  
 
 Contributions to the Hotel Management System project are welcome! To contribute:
 
@@ -86,7 +86,7 @@ Contributions to the Hotel Management System project are welcome! To contribute:
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Create a new Pull Request.
 
-## License 📝 
+## 📝 License  
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
