@@ -90,7 +90,7 @@ public class HotelReservationSystem {
 			String guestName = sc.next();
 
 			String sqlQuery = "SELECT room_number FROM reservations " + "WHERE reservation_id = " + reservationID
-					+ "AND guest_name = '" + guestName + "'";
+					+ " AND guest_name = '" + guestName + "'";
 
 			try (Statement stmt = con.createStatement(); ResultSet rs = stmt.executeQuery(sqlQuery)) {
 
