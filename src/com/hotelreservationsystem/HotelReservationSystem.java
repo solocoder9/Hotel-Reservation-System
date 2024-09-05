@@ -1,4 +1,4 @@
-package com.hotelmanagementsystem;
+package com.hotelreservationsystem;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
